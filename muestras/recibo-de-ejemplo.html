@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Recibo 128</title>
+<style>
+  @page { size: 72mm auto; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    width: 72mm;
+    margin: 0;
+    padding: 4mm 3mm;
+    font-family: "Cascadia Mono", "Consolas", monospace;
+    font-size: 11px;
+    line-height: 1.45;
+    color: #000;
+    background: #fff;
+  }
+  .centro { text-align: center; }
+  .negocio { font-size: 14px; font-weight: 700; letter-spacing: .02em; }
+  .chico { font-size: 10px; }
+  hr { border: 0; border-top: 1px dashed #000; margin: 2.5mm 0; }
+  .fila { display: flex; justify-content: space-between; gap: 3mm; }
+  .nombre { flex: 1; }
+  .valor { white-space: nowrap; }
+  .detalle { padding-left: 2mm; font-size: 10px; }
+  .linea { margin-bottom: 1mm; }
+  .total { font-size: 15px; font-weight: 700; margin: 1.5mm 0; }
+  .pie { margin-top: 3mm; font-size: 10px; }
+</style>
+</head>
+<body>
+  <div class="centro">
+    <div class="negocio">Licorera Demo</div>
+    <div class="chico"><div>NIT 900.123.456-7</div><div>Carrera 30 #8-15</div><div>318 555 0142</div></div>
+  </div>
+
+  <hr>
+
+  <div class="fila"><span>Recibo</span><span>N° 128</span></div>
+  <div class="fila"><span>Fecha</span><span>21/08/2026, 11:55 p. m.</span></div>
+  <div class="fila"><span>Atendió</span><span>María</span></div>
+
+  <hr>
+
+  
+        <div class="linea">
+          <div class="fila">
+            <span class="nombre">PÓKER 330 ml</span>
+            <span class="valor">$50.000</span>
+          </div>
+          <div class="detalle">2 six × $25.000</div>
+        </div>
+        <div class="linea">
+          <div class="fila">
+            <span class="nombre">AGUARDIENTE ANTIOQUEÑO 750 ml</span>
+            <span class="valor">$52.000</span>
+          </div>
+          
+        </div>
+        <div class="linea">
+          <div class="fila">
+            <span class="nombre">MARLBORO MEDIO</span>
+            <span class="valor">$22.500</span>
+          </div>
+          <div class="detalle">3 unidad × $7.500</div>
+        </div>
+        <div class="linea">
+          <div class="fila">
+            <span class="nombre">COCA-COLA 1.5 L</span>
+            <span class="valor">$11.600</span>
+          </div>
+          <div class="detalle">2 unidad × $5.800</div>
+        </div>
+        <div class="linea">
+          <div class="fila">
+            <span class="nombre">HIELO 2 kg</span>
+            <span class="valor">$4.000</span>
+          </div>
+          
+        </div>
+
+  <hr>
+
+  <div class="fila"><span>Subtotal</span><span>$140.100</span></div>
+  <div class="fila"><span>Descuento</span><span>−$2.100</span></div>
+  <div class="fila"><span>Domicilio</span><span>$5.000</span></div>
+  <div class="fila total"><span>TOTAL</span><span>$143.000</span></div>
+  
+  <div class="fila"><span>Efectivo</span><span>$143.000</span></div>
+  <div class="fila"><span>Recibido</span><span>$150.000</span></div>
+       <div class="fila"><span>Cambio</span><span>$7.000</span></div>
+  
+
+  <hr>
+
+  <div class="centro pie">
+    ¡Gracias por su compra!<br>
+    Este documento no es una factura electrónica.
+  </div>
+</body>
+</html>

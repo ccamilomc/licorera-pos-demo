@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+/**
+ * Tokens del punto de venta.
+ *
+ * Ningun componente escribe un color directo: todos salen de aqui.
+ * Cambiar la identidad del sistema es tocar este archivo, no doscientos.
+ *
+ * ---------------------------------------------------------------------
+ * Un solo tema: penumbra calida.
+ * ---------------------------------------------------------------------
+ *
+ * No hay modo dia y modo noche. La pantalla se ve igual siempre, y el
+ * tono se eligio por como se trabaja en una licorera, no por gusto:
+ *
+ * - El local trabaja de tarde y de noche, casi siempre a media luz. Un
+ *   fondo blanco en un local en penumbra deslumbra, y el cajero lo tiene
+ *   enfrente ocho horas seguidas.
+ * - Pero negro puro con texto blanco puro tampoco: el contraste extremo
+ *   hace que los numeros "vibren" (halacion), y aqui se leen cifras todo
+ *   el dia. Por eso el fondo es carbon y no negro, y el texto es un
+ *   blanco calido y no #fff.
+ * - El matiz es calido —hay mas rojo que azul en cada gris— para que
+ *   haga juego con el ambar del acento. Un gris azulado con acento ambar
+ *   se ve como dos temas peleando.
+ *
+ * El acento es ambar, del color del whisky y el aguardiente. Los colores
+ * de estado (agotado, bajo minimo, caja descuadrada) son aparte del
+ * acento y nunca se reutilizan para decorar: si el ambar significara
+ * "atencion" y ademas "boton principal", dejaria de significar nada.
+ *
+ * Todos los pares de este archivo estan medidos contra la superficie
+ * sobre la que se usan; los valores van anotados donde importan.
+ */
+
+@theme {
+  /* Superficies. Cuatro escalones de carbon calido: el fondo es el mas
+     hondo y cada panel sube un peldaño, que es lo que da profundidad sin
+     necesidad de sombras. */
+  --color-fondo: #171613;
+  --color-panel: #1f1e1a;
+  --color-panel-2: #292722;
+  --color-panel-3: #34312b;
+
+  /* Texto. Blanco calido, nunca #fff: sobre carbon, el blanco puro
+     produce halacion en las columnas de cifras. */
+  --color-tinta: #f0ebe3;
+  --color-tinta-2: #bdb5a9;
+  /* El de apoyo se aclaro hasta pasar el 4,5 tambien sobre los paneles
+     hondos: en `panel-2` daba 4,21, y ahi viven las cabeceras de tabla,
+     que es el peor sitio para un texto que casi se lee. */
+  --color-tinta-3: #a39b90;
+
+  /* Bordes */
+  --color-linea: #302d27;
+  --color-linea-2: #423d36;
+
+  /* Acento */
+  --color-acento: #e3a93c;
+  --color-acento-fuerte: #f2c266;
+  --color-acento-suave: #352913;
+
+  /* Lo que va ENCIMA de un color solido: acento, bien o grave.
+     Casi negro y no blanco. Los tres colores son claros —tienen que
+     serlo para verse sobre el carbon— y el blanco encima da entre 2,3 y
+     2,6 de contraste, la mitad de lo que exige la norma. Asi dan 7 a 9.
+     Cada uno lleva el matiz de su color para que no se vea como una
+     mancha negra pegada. */
+  --color-sobre-acento: #1a1206;
+  --color-sobre-bien: #06170f;
+  --color-sobre-grave: #2a0b07;
+
+  /* Estado. Nunca se usan como acento decorativo. */
+  --color-bien: #57be93;
+  --color-bien-suave: #13291f;
+  --color-alerta: #e3a93c;
+  --color-alerta-suave: #352913;
+  --color-grave: #ea8577;
+  --color-grave-suave: #2f1714;
+  --color-dato: #7fb0d4;
+  --color-dato-suave: #142430;
+
+  /* Tipografia */
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "Cascadia Mono", "Consolas", ui-monospace, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #raiz {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-fondo);
+    color: var(--color-tinta);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    /* En un mostrador, seleccionar texto sin querer estorba mas que ayuda.
+       Se reactiva donde de verdad hace falta leer y copiar. */
+    user-select: none;
+  }
+
+  input,
+  textarea,
+  [data-seleccionable] {
+    user-select: text;
+  }
+
+  /* Los campos heredan el tema: sin esto, Windows los pinta con su
+     propio blanco y quedan como parches de luz en la pantalla. */
+  input,
+  textarea,
+  select {
+    color-scheme: dark;
+  }
+
+  /* Las columnas de pesos tienen que poder compararse de un vistazo. */
+  .cifra {
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-acento);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

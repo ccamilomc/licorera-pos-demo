@@ -1,0 +1,572 @@
+{
+  "crear": [
+    {
+      "codigo": "WHI-OLDPARR-750B",
+      "nombre": "OLD PARR",
+      "categoria": "Whisky",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 2,
+      "precio_venta": 144500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 144500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "WHI-SOMETHINGE-750B",
+      "nombre": "SOMETHING ESPECIAL",
+      "categoria": "Whisky",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 9,
+      "precio_venta": 85500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 85500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "TEQ-JOSECUERVO-750B",
+      "nombre": "JOSE CUERVO",
+      "categoria": "Tequila",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 16,
+      "precio_venta": 109000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 109000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "AGU-AGUARDENTE-750B",
+      "nombre": "AGUARDENTE ROSADO",
+      "categoria": "Aguardiente",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 4,
+      "precio_venta": 73000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 73000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": true,
+      "revisar_motivo": "Inventario dice 74000 y la lista de precios 73000."
+    },
+    {
+      "codigo": "AGU-ANTIOQUENO-750B",
+      "nombre": "ANTIOQUEÑO AZUL",
+      "categoria": "Aguardiente",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 2,
+      "precio_venta": 62000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 62000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": true,
+      "revisar_motivo": "Inventario dice 64000 y la lista de precios 62000."
+    },
+    {
+      "codigo": "AGU-ANTIOQUENO-750B-3",
+      "nombre": "ANTIOQUEÑO VERDE",
+      "categoria": "Aguardiente",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 11,
+      "precio_venta": 56500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 56500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "AGU-AMARILLO-750B",
+      "nombre": "AMARILLO",
+      "categoria": "Aguardiente",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 18,
+      "precio_venta": 59500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 59500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "AGU-TAPAROJA-375B",
+      "nombre": "TAPA ROJA",
+      "categoria": "Aguardiente",
+      "presentacion": "375 ml",
+      "volumen_ml": 375,
+      "envase": "BOTELLA",
+      "existencia": 6,
+      "precio_venta": 32500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 32500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "BRA-ALFONSOBRA-700B",
+      "nombre": "ALFONSO BRANDY",
+      "categoria": "Brandy",
+      "presentacion": "700 ml",
+      "volumen_ml": 700,
+      "envase": "BOTELLA",
+      "existencia": 13,
+      "precio_venta": 47500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 47500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "VIN-SANTALUCIA-750B-2",
+      "nombre": "SANTA LUCIA VINO BLANCO",
+      "categoria": "Champaña y vinos",
+      "presentacion": "750 ml",
+      "volumen_ml": 750,
+      "envase": "BOTELLA",
+      "existencia": 20,
+      "precio_venta": 20000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 20000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "CER-CORONA-269L",
+      "nombre": "CORONA",
+      "categoria": "Cervezas",
+      "presentacion": "269 ml",
+      "volumen_ml": 269,
+      "envase": "LATA",
+      "existencia": 8,
+      "precio_venta": 4500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 4500,
+          "predeterminado": true,
+          "orden": 1
+        },
+        {
+          "nombre": "Six",
+          "factor": 6,
+          "precio_venta": 28000,
+          "predeterminado": false,
+          "orden": 2
+        }
+      ],
+      "revisar": true,
+      "revisar_motivo": "Six: inventario dice 27000 y la lista 28000."
+    },
+    {
+      "codigo": "CER-STELLAARTO-269L",
+      "nombre": "STELLA ARTOIS",
+      "categoria": "Cervezas",
+      "presentacion": "269 ml",
+      "volumen_ml": 269,
+      "envase": "LATA",
+      "existencia": 15,
+      "precio_venta": 4000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 4000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": true,
+      "revisar_motivo": "Inventario dice 5000 y la lista de precios 4500."
+    },
+    {
+      "codigo": "CER-POKER-330B",
+      "nombre": "POKER",
+      "categoria": "Cervezas",
+      "presentacion": "330 ml",
+      "volumen_ml": 330,
+      "envase": "BOTELLA",
+      "existencia": 38,
+      "precio_venta": 3900,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 3900,
+          "predeterminado": true,
+          "orden": 1
+        },
+        {
+          "nombre": "Six",
+          "factor": 6,
+          "precio_venta": 25000,
+          "predeterminado": false,
+          "orden": 2
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "CER-REEDSROSAD-269L",
+      "nombre": "REEDS ROSADA",
+      "categoria": "Cervezas",
+      "presentacion": "269 ml",
+      "volumen_ml": 269,
+      "envase": "LATA",
+      "existencia": 3,
+      "precio_venta": 3500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 3500,
+          "predeterminado": true,
+          "orden": 1
+        },
+        {
+          "nombre": "Six",
+          "factor": 6,
+          "precio_venta": 22700,
+          "predeterminado": false,
+          "orden": 2
+        }
+      ],
+      "revisar": true,
+      "revisar_motivo": "Inventario dice 3900 y la lista de precios 3700."
+    },
+    {
+      "codigo": "GAS-AGUACRISTA-300B",
+      "nombre": "AGUA CRISTAL",
+      "categoria": "Gaseosas y aguas",
+      "presentacion": "300 ml",
+      "volumen_ml": 300,
+      "envase": "BOTELLA",
+      "existencia": 10,
+      "precio_venta": 1000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 1000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "GAS-POSTOBONCO-1500B",
+      "nombre": "POSTOBON COLOMBIANA",
+      "categoria": "Gaseosas y aguas",
+      "presentacion": "1,5 L",
+      "volumen_ml": 1500,
+      "envase": "BOTELLA",
+      "existencia": 17,
+      "precio_venta": 7000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 7000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "GAS-HITPINA-500B",
+      "nombre": "HIT PIÑA",
+      "categoria": "Gaseosas y aguas",
+      "presentacion": "500 ml",
+      "volumen_ml": 500,
+      "envase": "BOTELLA",
+      "existencia": 5,
+      "precio_venta": 3500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 3500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "GAS-GATORADEMA-500B-2",
+      "nombre": "GATORADE MANDARINA",
+      "categoria": "Gaseosas y aguas",
+      "presentacion": "500 ml",
+      "volumen_ml": 500,
+      "envase": "BOTELLA",
+      "existencia": 12,
+      "precio_venta": 4000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 4000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "GAS-FOURLOKOMO-473B",
+      "nombre": "FOUR LOKO MORADO",
+      "categoria": "Gaseosas y aguas",
+      "presentacion": "473 ml",
+      "volumen_ml": 473,
+      "envase": "BOTELLA",
+      "existencia": 19,
+      "precio_venta": 16000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 16000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "GAS-AMPERMANGO-473B",
+      "nombre": "AMPER MANGO",
+      "categoria": "Gaseosas y aguas",
+      "presentacion": "473 ml",
+      "volumen_ml": 473,
+      "envase": "BOTELLA",
+      "existencia": 7,
+      "precio_venta": 4500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 4500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "CIG-MALBOROSAN-XU",
+      "nombre": "MALBORO SANDIA",
+      "categoria": "Cigarrillos",
+      "presentacion": "MEDIO",
+      "volumen_ml": null,
+      "envase": "PAQUETE",
+      "existencia": 11,
+      "precio_venta": 8000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 8000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "CIG-CHESTERFIE-XU",
+      "nombre": "CHESTERFIELD",
+      "categoria": "Cigarrillos",
+      "presentacion": "MEDIO",
+      "volumen_ml": null,
+      "envase": "PAQUETE",
+      "existencia": 18,
+      "precio_venta": 8500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 8500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "CIG-LUCKYAZUL-XU",
+      "nombre": "LUCKY AZUL",
+      "categoria": "Cigarrillos",
+      "presentacion": "MEDIO",
+      "volumen_ml": null,
+      "envase": "PAQUETE",
+      "existencia": 6,
+      "precio_venta": 7000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 7000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "CIG-MARLBORORO-XU",
+      "nombre": "MARLBORO ROJO",
+      "categoria": "Cigarrillos",
+      "presentacion": "MEDIO",
+      "volumen_ml": null,
+      "envase": "PAQUETE",
+      "existencia": 14,
+      "precio_venta": 8000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 8000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    },
+    {
+      "codigo": "DUL-MARGARITA-XU-2",
+      "nombre": "MARGARITA",
+      "categoria": "Papas y dulces",
+      "presentacion": "Unidad",
+      "volumen_ml": null,
+      "envase": "BOLSA",
+      "existencia": 2,
+      "precio_venta": 10500,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 10500,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": true,
+      "revisar_motivo": "Comparte nombre y presentacion con otro producto de precio distinto (3500 y 10000). Falta ponerles el tamaño para distinguirlos en la caja."
+    },
+    {
+      "codigo": "DUL-TRIDENTX18-XU",
+      "nombre": "TRIDENT X 18",
+      "categoria": "Papas y dulces",
+      "presentacion": "Unidad",
+      "volumen_ml": null,
+      "envase": "BOLSA",
+      "existencia": 9,
+      "precio_venta": 4000,
+      "empaques": [
+        {
+          "nombre": "Unidad",
+          "factor": 1,
+          "precio_venta": 4000,
+          "predeterminado": true,
+          "orden": 1
+        }
+      ],
+      "revisar": false,
+      "revisar_motivo": null
+    }
+  ],
+  "actualizar": []
+}

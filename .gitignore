@@ -1,0 +1,13 @@
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+.env
+.env.*
+dist-prueba-produccion*/
+dist/
+node_modules/
+respaldos/
+src-tauri/gen/
+src-tauri/target/
+target/
