@@ -26,7 +26,7 @@ serde_json = "1"
 rusqlite = { version = "0.32", features = ["bundled", "chrono", "backup"] }
 
 # Argon2id para las contraseñas. Nunca texto plano.
-argon2 = "0.5"
+argon2 = "0.6"
 password-hash = { version = "0.5", features = ["rand_core"] }
 rand_core = { version = "0.6", features = ["std"] }
 
