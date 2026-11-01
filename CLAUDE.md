@@ -120,3 +120,13 @@ corre una sola vez, en orden y dentro de su propia transacción.
 - Ningún componente escribe un color directo: todo sale de los tokens de
   `src/estilos/global.css`.
 - Los comentarios explican **por qué**, no qué. El qué ya lo dice el código.
+
+## Flujo con GitHub
+
+- No se sube directo a la rama principal: una rama por tarea (`feat/…`, `fix/…`, `docs/…`, `chore/…`) y un pull request hacia ella.
+- Commits convencionales (`feat:`, `fix:`, `docs:`, `chore:`), uno por unidad lógica y en español.
+- Probar en el equipo antes de subir. Si existe `.githooks/pre-push`, activarlo una vez con `git config core.hooksPath .githooks`.
+- Los minutos de GitHub Actions son limitados: subir commits agrupados y abrir el PR cuando la rama esté razonablemente lista, no con cada ajuste. La CI corre solo en pull requests; no añadir workflows que corran en cada push.
+- Antes de dar algo por terminado, verificar con las pruebas (skill `verification-before-completion`); al cerrar la rama, usar `finishing-a-development-branch`.
+- Nunca subir `.env`, claves, volcados SQL ni archivos con datos reales de clientes (Excel, listados de personas o precios de proveedores).
+- No cambiar la visibilidad de un repositorio (privado/público) sin confirmación explícita del dueño.
